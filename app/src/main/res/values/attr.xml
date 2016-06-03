@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WrapTextView">
+        <attr name="horizontal_spacing" format="dimension" />
+        <attr name="vertical_spacing" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="FilterEditText">
+        <attr name="limit_length" format="integer" />
+        <attr name="distinguish_chinese_english" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SearchView">
+        <attr name="query_hint" format="string" />
+        <attr name="input_max_length" format="integer" />
+    </declare-styleable>
+</resources>

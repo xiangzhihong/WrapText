@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/product_spec_search_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:visibility="visible">
+
+    <RelativeLayout
+        android:id="@+id/custom_spec_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/custom_spec_label_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:singleLine="true"
+            android:textColor="@color/c13" />
+
+        <TextView
+            android:id="@+id/use_custom_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/edit_bg"
+            android:padding="4dp"
+            android:text="　使用　"
+            android:textColor="@color/c9" />
+
+    </RelativeLayout>
+
+    <View style="@style/horizontal_line" />
+
+    <ListView
+        android:id="@+id/matching_spec_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/c3"
+        android:dividerHeight="1px" />
+</LinearLayout>
